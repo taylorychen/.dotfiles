@@ -25,6 +25,9 @@ vim.keymap.set("v", "<", "<gv")
 vim.keymap.set("v", ">", ">gv")
 
 -- dont grab deleted chunk
+vim.keymap.set("n", "<leader>dd", '"_dd')
+
+-- dont grab deleted chunk on paste
 vim.keymap.set("x", "<leader>p", '"_dP')
 
 vim.keymap.set("n", "Q", "<nop>")
